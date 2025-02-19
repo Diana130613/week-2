@@ -26,7 +26,7 @@ class SnowFlakes:
             self.s[i][i] = '*'
             self.s[i][n - i - 1] = '*'
             self.s[i][n // 2] = '*'
-            self.s[n // 2][i] = "*"
+            self.s[n // 2][i] = '*'
 
     def thaw(self, steps):
         """
